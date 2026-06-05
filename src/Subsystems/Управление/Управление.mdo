@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5c97956-3b48-443c-a8ad-3d8d3f142af5">
+  <name>Управление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Управление</picture>
+  </picture>
+  <content>Constant.Владелец</content>
+  <content>Constant.АдресМагазина</content>
+  <content>Constant.ИННМагазина</content>
+  <content>Constant.НазваниеМагазина</content>
+  <content>Catalog.СписокСотрудников</content>
+  <content>Catalog.СписокТоваровИУслуг</content>
+  <content>DocumentJournal.Финансы</content>
+  <content>Constant.ДатаВывода</content>
+  <content>Catalog.Отдел</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Договоры</content>
+  <content>Catalog.ОсновныеСредства</content>
+  <content>Catalog.РасчетныеСчета</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхXML</content>
+</mdclass:Subsystem>

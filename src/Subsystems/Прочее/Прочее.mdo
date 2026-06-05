@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed244a7d-2f81-4497-a4ce-328edce931e1">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Прочее</picture>
+  </picture>
+  <content>AccumulationRegister.ОстатокТоваровНаСкладе</content>
+  <content>Report.СписокСотрудников</content>
+  <content>Report.ПриходДенег</content>
+  <content>Catalog.Инструкция</content>
+  <content>Constant.Инструкция</content>
+  <content>Constant.ПоказатьРеквизитСправочника</content>
+  <content>Catalog.Экспериментальный</content>
+  <content>DataProcessor.ПодсчетСимволов</content>
+  <content>Report.ВедомостьДвиженияТоваров</content>
+  <content>DataProcessor.Калькулятор</content>
+  <content>Report.ПервыйВнешнийОтчет1</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхXML</content>
+  <content>DataProcessor.JSON</content>
+</mdclass:Subsystem>

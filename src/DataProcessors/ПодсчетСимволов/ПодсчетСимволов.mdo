@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8516ba7-318b-4b64-aa74-94f89de560a0">
+  <producedTypes>
+    <objectType typeId="052b995e-31f8-4481-8f6f-7ec50d7ef7fc" valueTypeId="4c979209-6b61-4e6c-ac33-04754b198823"/>
+    <managerType typeId="6d7cd82a-53e9-43de-ab26-f408df470839" valueTypeId="66729346-56b4-43d4-8c32-6ed7c3e13cf8"/>
+  </producedTypes>
+  <name>ПодсчетСимволов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсчет символов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПодсчетСимволов.Form.Форма</defaultForm>
+  <attributes uuid="6cdd2589-d057-4950-b967-522c34dd19a1">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="df05f7b1-3cfe-40a9-96c4-04768df3e7f4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

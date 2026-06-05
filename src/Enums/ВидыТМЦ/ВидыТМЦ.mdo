@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1168e0f5-bbc5-44b5-84a0-27aa085f8853">
+  <producedTypes>
+    <refType typeId="0c70cdd9-73ca-4ea9-826b-71cfd46fc8fa" valueTypeId="66dc4833-c1d4-4b9c-903f-9fd95743377f"/>
+    <listType typeId="b84b0aea-c912-43dc-b04f-db07609e770e" valueTypeId="2ae9f50d-b2f7-4f26-9902-bf9e6c5505f8"/>
+    <managerType typeId="1287921a-3fd4-48dc-aa09-613986e9662a" valueTypeId="b8e81763-ff3a-4338-86f7-968429444e4c"/>
+  </producedTypes>
+  <name>ВидыТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ТМЦ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a2d959a9-4694-4f0d-b989-6adc5331df8b">
+    <name>ОсновныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основные средства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26ee118f-ee1f-4e92-a51d-016feb2197f6">
+    <name>РасчетныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c3d0786-0a3b-4da9-b191-b8ac2b815308">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

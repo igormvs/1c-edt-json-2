@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3022bd05-2844-4d9b-8e6c-8b51abfba191">
+  <name>БухгалтерияТовары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерия товары</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка22</picture>
+  </picture>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+  <content>ChartOfAccounts.ХозрасчетныйПлан</content>
+  <content>AccountingRegister.ЖурналОпераций</content>
+  <content>Document.БезвозмездноеПоступлениеТМЦОтОрганизаций</content>
+  <content>Report.БезвозмездноеПоступлениеТМЦ</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхXML</content>
+</mdclass:Subsystem>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b9ad8df-3702-4b02-a188-642c58ea555e">
+  <producedTypes>
+    <selectionType typeId="f99ebd2f-18ff-4516-bf05-87ac2c0d570d" valueTypeId="a838489f-5ecc-4059-afb3-47c962790bef"/>
+    <listType typeId="90e4f37a-9951-4235-85b7-8dcc8e49bd2e" valueTypeId="f2df24e7-c984-4523-b345-abe92467e3f7"/>
+    <managerType typeId="c45bf1ac-d335-424a-af49-cf3d87abd94b" valueTypeId="c7a2965d-f9b0-4fad-951c-8d19690e0a6d"/>
+  </producedTypes>
+  <name>Финансы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.Финансы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПриходДенежныхСредств</registeredDocuments>
+  <registeredDocuments>Document.РасходДенег</registeredDocuments>
+  <columns uuid="ccc3f589-957f-412c-b2d4-845e119886af">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ПриходДенежныхСредств.Attribute.Сумма</references>
+    <references>Document.РасходДенег.Attribute.Сумма</references>
+  </columns>
+  <forms uuid="bcceaab0-c3b9-4d33-af5e-f993c7ee02fd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

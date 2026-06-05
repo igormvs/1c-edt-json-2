@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="021aef76-46f6-485d-aee1-8a6759bd2822">
+  <producedTypes>
+    <objectType typeId="d7387650-9ba6-4300-ae45-a48724bcd985" valueTypeId="57988fef-bc22-4f11-85be-9e8fa34cf266"/>
+    <refType typeId="af723c5d-ffe0-4a50-8038-145bf8b187ef" valueTypeId="bdfbd8cc-8c95-4b70-b58e-c4c0acedc232"/>
+    <selectionType typeId="e12ec483-cf71-490b-aad8-5ab17f65d8cb" valueTypeId="2df8b3eb-ca56-4ebc-9d7a-3e48f07082e6"/>
+    <listType typeId="116dc711-1a11-4147-8c17-e805af373693" valueTypeId="37a1f4df-2707-445b-aa9f-97ba30c617af"/>
+    <managerType typeId="d4333707-e2f5-43ec-b775-be95adeaed20" valueTypeId="e390cc2c-354b-4199-9bd3-fc0de5c93860"/>
+  </producedTypes>
+  <name>РасчетныеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетные счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

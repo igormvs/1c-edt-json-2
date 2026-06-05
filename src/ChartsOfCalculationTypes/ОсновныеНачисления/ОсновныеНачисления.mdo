@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33401fc7-01f4-406b-989d-ea5df74c38e6">
+  <producedTypes>
+    <objectType typeId="9be4dff6-1f8a-4c18-887c-9c858e3f30aa" valueTypeId="7b8f261d-79b9-436a-b511-f0b2b21fd1d1"/>
+    <refType typeId="d73e2e51-bade-488b-9f94-c38fc8b1bfc3" valueTypeId="ad7ba2de-38b0-4429-aeac-5429a2619a81"/>
+    <selectionType typeId="f678e3b2-db08-4905-a8e9-49e75d4448f7" valueTypeId="4e70b1b4-808c-4201-82a2-110c24569588"/>
+    <listType typeId="5a32ce71-0b4a-42fe-8f2e-464acf37b93f" valueTypeId="5d8b6cc0-edd2-4d6e-9f5a-caba70019913"/>
+    <managerType typeId="33251d8e-1ecf-4bec-9dd4-2b342a4befd7" valueTypeId="7f31a50f-d67f-488b-a805-d87587b85b56"/>
+    <displacingCalculationTypesType typeId="32c36a23-45d6-4aeb-8d8f-83e05f26e80c" valueTypeId="4fff06b8-836a-4aaf-9f82-086145eedbdc"/>
+    <displacingCalculationTypesRowType typeId="c8fb0c6e-b2d3-40e0-b617-2e109a626b7b" valueTypeId="1b1da7e2-47c3-4852-b345-7419d9df34dd"/>
+    <baseCalculationTypesType typeId="0a788e2d-f0c0-48f0-a6eb-446cbfd855c3" valueTypeId="d08905af-c827-4bc0-bad2-4c110b72b79b"/>
+    <baseCalculationTypesRowType typeId="a6b6907a-70cc-428b-9b35-f5bde5d1eadd" valueTypeId="c41709f9-3389-4733-a999-5dd137b3be92"/>
+    <leadingCalculationTypesType typeId="ab91a9d5-7a38-46af-89e0-ecfe6308e088" valueTypeId="3459f884-6acf-4c95-b95b-112e83884418"/>
+    <leadingCalculationTypesRowType typeId="7de14d3c-6480-40be-bc63-971c43a438a5" valueTypeId="9b29af18-79f9-478c-b8a9-00c75027495c"/>
+  </producedTypes>
+  <name>ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ОсновныеНачисления.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCalculationTypes.ОсновныеНачисления.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
+  <predefined>
+    <items id="71d0609f-7f6d-497d-8f40-0073a487b673">
+      <name>ДоплатаЗаИнтенсивность</name>
+      <description>Доплата за интенсивность</description>
+      <code xsi:type="core:StringValue">
+        <value>Интенсив</value>
+      </code>
+      <actionPeriodIsBase>true</actionPeriodIsBase>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.ДоплатаЗаСложность</base>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.ПоОкладу</base>
+    </items>
+    <items id="37b4e14b-6f46-491a-b209-f73db1d0f083">
+      <name>ДоплатаЗаСложность</name>
+      <description>Доплата за сложность</description>
+      <code xsi:type="core:StringValue">
+        <value>Сложность</value>
+      </code>
+      <actionPeriodIsBase>true</actionPeriodIsBase>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.ДоплатаЗаСложность</base>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.ПоОкладу</base>
+    </items>
+    <items id="f88bdef2-7492-43d8-9b13-3c2249833085">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>Отпуск</value>
+      </code>
+      <actionPeriodIsBase>true</actionPeriodIsBase>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.ДоплатаЗаСложность</base>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.ПоОкладу</base>
+    </items>
+    <items id="a2819d47-fc94-42ae-8242-a5e74f39f989">
+      <name>ПоОкладу</name>
+      <description>По окладу</description>
+      <code xsi:type="core:StringValue">
+        <value>ПоОкладу</value>
+      </code>
+      <actionPeriodIsBase>true</actionPeriodIsBase>
+      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Отпуск</displaced>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.ДоплатаЗаСложность</base>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.ПоОкладу</base>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

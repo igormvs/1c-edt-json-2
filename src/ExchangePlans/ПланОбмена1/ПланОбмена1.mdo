@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82a7519b-ea07-41e7-a913-4d960503d23f" thisNode="b3475b3e-e551-4ba9-b477-88055b4a5080">
+  <producedTypes>
+    <objectType typeId="69faa0bb-6b60-40c5-8d35-4333a2dbea9e" valueTypeId="0c6132a5-b0f7-4694-a295-9e52933563ec"/>
+    <refType typeId="e423ae36-fae5-4136-b16c-60480a47e735" valueTypeId="f73f90fb-1286-4a78-9d9a-6503348412a8"/>
+    <selectionType typeId="d915fa18-66e2-4a53-8e75-3ee351e67d19" valueTypeId="49829363-fceb-4fbd-8f2e-89cf6562eaa4"/>
+    <listType typeId="e7f4a1c4-4b0c-43d6-ac85-10de3af16423" valueTypeId="ed06173e-8def-4756-8a69-3437ae6b5da5"/>
+    <managerType typeId="545ab21b-58e5-4a5f-9955-d947e7040386" valueTypeId="8d0659db-b6b4-4445-af4e-0ec886e02019"/>
+  </producedTypes>
+  <name>ПланОбмена1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ПланОбмена1.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ПланОбмена1.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.РасходнаяНакладная</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

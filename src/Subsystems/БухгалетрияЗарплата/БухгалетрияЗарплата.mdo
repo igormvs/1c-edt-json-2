@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f4bec91-ec43-4b35-ab9b-62629b270fb0">
+  <name>БухгалетрияЗарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалетрия зарплата</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка21</picture>
+  </picture>
+  <content>ChartOfCalculationTypes.ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.Удержания</content>
+  <content>InformationRegister.График</content>
+  <content>CalculationRegister.ОсновныеНачисления</content>
+  <content>Document.Зарплата</content>
+  <content>CalculationRegister.Удержания</content>
+  <content>Report.Зарплата</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхXML</content>
+</mdclass:Subsystem>

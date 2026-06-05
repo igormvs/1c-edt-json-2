@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1827cbe4-6a9a-432f-8cbd-7b5d3c1e9a03">
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Продажи</picture>
+  </picture>
+  <content>Document.ПриходДенежныхСредств</content>
+  <content>InformationRegister.РасходТовара</content>
+  <content>Document.РасходнаяНакладная</content>
+  <content>Document.УходТовара</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Договоры</content>
+  <content>AccumulationRegister.ОборотТоваров</content>
+  <content>DataProcessor.ВыгрузкаЗагрузкаДанныхXML</content>
+  <content>DataProcessor.Обработка1</content>
+</mdclass:Subsystem>

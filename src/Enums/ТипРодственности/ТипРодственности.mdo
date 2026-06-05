@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="807ea361-c556-48f2-9635-f03df8e6b1bf">
+  <producedTypes>
+    <refType typeId="58dc9655-4803-48b0-aa3b-7b8d6382af64" valueTypeId="473323dd-f46d-4f46-9767-7cf15d6e497e"/>
+    <listType typeId="b7b3baac-326a-4a82-8dca-fe70e925e719" valueTypeId="edfb66c3-2bfb-4805-a5cc-d53e55f55754"/>
+    <managerType typeId="bf4077c5-ad2e-49bd-b3e1-e6cff668674c" valueTypeId="de7a3a42-aade-4a29-bb49-dda3dcb7b4d0"/>
+  </producedTypes>
+  <name>ТипРодственности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип родственности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c71cb15-9f00-4383-b3cc-1e9c19b5d84b">
+    <name>Муж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Муж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aefdc8b8-92bf-4d46-aa8e-103f51980d2f">
+    <name>Жена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2bb4358-8f99-4129-ad21-24e8857896c2">
+    <name>Дочь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дочь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d26930b1-67c2-4808-a538-ff1fab97cdbe">
+    <name>Сын</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сын</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98a9f84c-214b-4533-ae55-97bbf86cd376">
+    <name>Мать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfcae64f-7e20-4ffd-bba3-f8278be8a4cd">
+    <name>Отец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отец</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e4f5a2e-d59b-464f-9598-846617e0088c">
+    <name>Бабушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бабушка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="913c912d-3134-4300-a908-d2560f0c2489">
+    <name>Дедушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дедушка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

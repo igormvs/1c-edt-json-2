@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aefc398c-d68a-4978-9795-c9183e41ca92">
+  <producedTypes>
+    <refType typeId="bc145ec7-adde-4885-a7da-2feb8602ade4" valueTypeId="a5bf3651-c8dd-4cfa-9593-c7fb51c09400"/>
+    <listType typeId="2cb79009-f89c-4413-80f0-482593299d08" valueTypeId="03032ab2-e22e-4ad8-96d1-22bee499267d"/>
+    <managerType typeId="449f1f11-3647-4c79-843c-52f22c7af357" valueTypeId="66703f4e-3a2d-43c6-9a2e-0928aafb3d62"/>
+  </producedTypes>
+  <name>ТипРаботника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип работника</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9cc507bd-c8b7-48ad-a881-6d6793b585f7">
+    <name>Внутренний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23e59452-9e8b-4742-af92-df490bba4d6b">
+    <name>Внешний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cef76d66-2ce2-402a-95d0-7ce4ee9cc8de">
+    <name>Совместительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совместительство</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df490762-ad9e-4803-84bd-23ffde315e18">
+  <producedTypes>
+    <objectType typeId="2314bd5d-39f9-4fc2-8bb3-cfc9e125eb29" valueTypeId="767d4e25-2da5-4b7c-a48d-170322747ed7"/>
+    <managerType typeId="31897395-dab7-4423-b1a8-ac310eacd945" valueTypeId="2c278fc2-a09c-4535-b996-25aa276f152e"/>
+  </producedTypes>
+  <name>Калькулятор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Калькулятор</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Калькулятор.Form.Форма</defaultForm>
+  <forms uuid="0d4f411b-1f21-4495-8bdb-1f53daed8b12">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="908b4f33-efc6-455a-bdc9-c98f937ab0f2">
+    <name>Инфо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инфо</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

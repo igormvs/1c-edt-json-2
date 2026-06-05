@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd99f79b-08a2-458d-a9a7-fe84cc1a66a1">
+  <producedTypes>
+    <objectType typeId="eaf8fc9a-a7c6-4696-bda4-980df260c3ee" valueTypeId="71de138b-5330-4b0e-ae9f-e6e262acbfbf"/>
+    <refType typeId="80eb4549-6da9-4296-8b3b-9165481d1ad2" valueTypeId="8af980fc-f119-4643-ab20-f8d02b10113c"/>
+    <selectionType typeId="e45fd76a-c7c7-4310-b153-6500b83a8156" valueTypeId="dbbaafaf-d0bc-4fd3-8dab-9d6836994d38"/>
+    <listType typeId="260d4ae0-ddfa-408a-89c9-f3cf96cef3d2" valueTypeId="e1c7ce53-9689-4ccd-aa8d-7271c1cf3733"/>
+    <managerType typeId="4751b920-f466-4e3a-8237-7af76fdf8b2b" valueTypeId="acb9d55a-12ed-42aa-8760-f270ecc5acd0"/>
+  </producedTypes>
+  <name>ОсновныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОсновныеСредства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОсновныеСредства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

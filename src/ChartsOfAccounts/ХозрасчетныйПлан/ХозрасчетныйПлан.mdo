@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fba3129a-da19-419b-ac9f-6fc6d396d536">
+  <producedTypes>
+    <objectType typeId="3b30927c-4aad-4f39-b369-ed0451f9fbbc" valueTypeId="dbf8ede1-dc26-43ce-abd8-574325c4d5da"/>
+    <refType typeId="42fbf966-9494-4943-a8e6-491c2ef2be9c" valueTypeId="ecbdb208-1605-47de-9cc3-1e756b57c232"/>
+    <selectionType typeId="67b7a610-00f5-4461-857e-7e9fcf9ccdf1" valueTypeId="4baa65ef-336c-4122-8d01-09370c3f8fd6"/>
+    <listType typeId="d77468e2-362a-434d-90a9-ccd60744a3e1" valueTypeId="91d2e6bb-8893-4470-905d-777d1fa6c29e"/>
+    <managerType typeId="652974aa-d4ed-4f02-bf72-847ea5331ceb" valueTypeId="21e92054-d696-4257-bed2-0d77424a0fbc"/>
+    <extDimensionTypes typeId="b13ffab2-7e33-4c4d-9e2a-86040cbf8910" valueTypeId="a4ab84e9-8747-44a3-a09f-231ee7c35c8c"/>
+    <extDimensionTypesRow typeId="6a042014-5af2-4cad-a699-b05159f3b8b2" valueTypeId="04ae0153-861f-41fa-bdc8-740074206754"/>
+  </producedTypes>
+  <name>ХозрасчетныйПлан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хозрасчетный план</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.ХозрасчетныйПлан.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.ХозрасчетныйПлан.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
+  <maxExtDimensionCount>1</maxExtDimensionCount>
+  <codeMask>##</codeMask>
+  <codeLength>8</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="51f6f110-e935-4714-87ff-d20c8c6a3849">
+      <name>ОсновныеСредства</name>
+      <description>Основные средства</description>
+      <code>01</code>
+      <order>01</order>
+      <accountingFlags>ChartOfAccounts.ХозрасчетныйПлан.AccountingFlag.Количественный</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.ОсновныеСредства</characteristicType>
+        <extDimensionAccountingFlags>ChartOfAccounts.ХозрасчетныйПлан.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        <extDimensionAccountingFlags>ChartOfAccounts.ХозрасчетныйПлан.ExtDimensionAccountingFlag.Количественный</extDimensionAccountingFlags>
+      </extDimensionTypes>
+    </items>
+    <items id="f88d413b-f112-41c5-88f7-5acbf95cde44">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>10</code>
+      <order>11</order>
+      <accountingFlags>ChartOfAccounts.ХозрасчетныйПлан.AccountingFlag.Количественный</accountingFlags>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Номенклатура</characteristicType>
+        <extDimensionAccountingFlags>ChartOfAccounts.ХозрасчетныйПлан.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        <extDimensionAccountingFlags>ChartOfAccounts.ХозрасчетныйПлан.ExtDimensionAccountingFlag.Количественный</extDimensionAccountingFlags>
+      </extDimensionTypes>
+    </items>
+    <items id="0b94fd23-99f2-453c-8e11-62bb0909c643">
+      <name>РасчетныйСчет</name>
+      <description>Рсчетный счет</description>
+      <code>51</code>
+      <order>51</order>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.РасчетныйСчет</characteristicType>
+        <extDimensionAccountingFlags>ChartOfAccounts.ХозрасчетныйПлан.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        <extDimensionAccountingFlags>ChartOfAccounts.ХозрасчетныйПлан.ExtDimensionAccountingFlag.Количественный</extDimensionAccountingFlags>
+      </extDimensionTypes>
+    </items>
+    <items id="17e8c895-bd55-4e3e-8e69-cbf6d25de6dc">
+      <name>БезвозмездноеПоступление</name>
+      <description>Безвозмездное поступление</description>
+      <code>98</code>
+      <accountType>Passive</accountType>
+      <order>98</order>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагент</characteristicType>
+        <extDimensionAccountingFlags>ChartOfAccounts.ХозрасчетныйПлан.ExtDimensionAccountingFlag.Суммовой</extDimensionAccountingFlags>
+        <extDimensionAccountingFlags>ChartOfAccounts.ХозрасчетныйПлан.ExtDimensionAccountingFlag.Количественный</extDimensionAccountingFlags>
+      </extDimensionTypes>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <autoOrderByCode>true</autoOrderByCode>
+  <orderLength>8</orderLength>
+  <attributes uuid="b2a2fe2c-5ccf-4ab1-87d5-01a209faf256">
+    <name>СодержаниеПроводки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание проводки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <accountingFlags uuid="aa51a4a5-a60e-4e54-84e0-29b4e3ddceeb">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <extDimensionAccountingFlags uuid="c528c0e4-a1f4-44b5-a17f-08908bda21bb">
+    <name>Суммовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммовой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <extDimensionAccountingFlags uuid="400daa68-ca28-41b7-9a3a-ddf8e184c215">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+</mdclass:ChartOfAccounts>

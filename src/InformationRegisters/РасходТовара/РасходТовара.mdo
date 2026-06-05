@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="358a9e6c-dd45-47c6-80b6-ed3c1e5df286">
+  <producedTypes>
+    <selectionType typeId="a474e879-6636-4083-bcb3-25cc968c9076" valueTypeId="cf33db22-e813-4e42-b94e-99101b7f2224"/>
+    <listType typeId="a7f051a3-a8ed-4196-aedc-fada101c21f0" valueTypeId="c66b0be0-2301-4177-86b4-99a2d263e073"/>
+    <managerType typeId="a82f0a2b-68b3-4f8b-9da7-38c556f15344" valueTypeId="89dcf74f-2808-461d-8038-8631a283d2b4"/>
+    <recordSetType typeId="9cc0ad5c-bd0f-4d65-bcc1-b830a8baa508" valueTypeId="59ec172d-687e-4605-91e0-3e07395ca307"/>
+    <recordKeyType typeId="69453979-d62f-4359-b294-7d190b938c8f" valueTypeId="5a3d8a66-8e87-49fd-8f00-58c600ba54e0"/>
+    <recordType typeId="3653795b-1500-43de-a5ae-74256407e49f" valueTypeId="c625bb17-bbbc-41a7-99d7-8c129acc5418"/>
+    <recordManagerType typeId="9af2c8f8-355a-4433-abb8-6d6a21843436" valueTypeId="e45dd7a9-ee60-4d62-b65e-f666ee1deeb4"/>
+  </producedTypes>
+  <name>РасходТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.РасходТовара.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b7a2330b-7e18-42e3-9586-682e2e9738e3">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ea42195e-8099-426c-b704-eef151cc5f75">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СписокТоваровИУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="53af76a6-db6a-4230-9ac1-cebdd04f1d64">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

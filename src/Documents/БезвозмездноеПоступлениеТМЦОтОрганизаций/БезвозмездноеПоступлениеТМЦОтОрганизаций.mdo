@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ef9729d-41b2-47fd-9e2b-a7be20cd2d75">
+  <producedTypes>
+    <objectType typeId="2d08d7a0-bf06-455c-bd86-992e33ebf9e6" valueTypeId="bf2a7e78-04a2-4fba-bd63-0c88eb778b9d"/>
+    <refType typeId="943956fa-de38-4721-ad40-079d16d73c00" valueTypeId="32716d84-4296-4826-b331-297f2622eaf6"/>
+    <selectionType typeId="1815c084-a15c-42f0-9b1f-236ffcf02c42" valueTypeId="450fa79e-28e9-41ec-bca5-828c8c6c0d15"/>
+    <listType typeId="571c53b5-0943-458e-bf19-69c052b9a68b" valueTypeId="5225d744-fc66-467c-8287-cdb65dffa942"/>
+    <managerType typeId="74206a8b-60ee-4692-abbd-716f9cae606c" valueTypeId="338dad78-b6aa-4652-b272-8855313fb859"/>
+  </producedTypes>
+  <name>БезвозмездноеПоступлениеТМЦОтОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Безвозмездное поступление ТМЦ от организаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.БезвозмездноеПоступлениеТМЦОтОрганизаций.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccountingRegister.ЖурналОпераций</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="ede99d36-c07a-440e-ae28-1fff1f177c48">
+    <producedTypes>
+      <objectType typeId="8b44f0c1-6719-467a-9935-c10d1f3607eb" valueTypeId="7a453cb3-06c4-4ecf-987b-adf6c9df6fa1"/>
+      <rowType typeId="e4b31e5c-2bd1-4e31-b158-b734358cb753" valueTypeId="580920b5-f8e8-4b93-9789-b0c22550b215"/>
+    </producedTypes>
+    <name>ТМЦТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТМЦТЧ</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="097c3f08-6f07-4369-b098-0a36a13fcb91">
+      <name>ВидТМЦ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид ТМЦ</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ВидыСубконто</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="abebe613-56e7-4308-8126-268701a8707b">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5fa9357f-365a-45d7-ab98-bcad86157f0c">
+      <name>ТМЦ</name>
+      <synonym>
+        <key>ru</key>
+        <value>ТМЦ</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+        <types>CatalogRef.СписокТоваровИУслуг</types>
+        <types>CatalogRef.ОсновныеСредства</types>
+        <types>CatalogRef.РасчетныеСчета</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5c3eed1c-be82-4b28-bf6a-1bf3049da95c">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="33982194-de3a-4c3e-91f2-26e5a8640246">
+      <name>Стоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2397bda9-f361-44b0-b222-324293fcf4a5">
+  <name>ОбщаяКартинка11</name>
+  <transparentPixel>
+    <x>149</x>
+    <y>54</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

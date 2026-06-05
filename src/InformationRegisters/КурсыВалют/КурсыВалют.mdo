@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84cf961a-c0ef-4ec2-a1bc-1297f5cf248b">
+  <producedTypes>
+    <selectionType typeId="908652c3-ffd8-4de7-a156-f1f920ed2d15" valueTypeId="eefbefd1-c0d4-4f2e-9f78-c3ce8f112c62"/>
+    <listType typeId="0d3327f6-5419-4933-860e-e7608a72fb7b" valueTypeId="34eec5a6-7ef9-4010-8de2-c9b52e99fa62"/>
+    <managerType typeId="d774d3fe-538f-44b1-a886-d809b5a22e59" valueTypeId="a71123d0-3f53-42e5-91d7-6639a653dae1"/>
+    <recordSetType typeId="e7988ccd-299a-48b9-bff6-f2fe45c68bd5" valueTypeId="e4b488bb-74aa-4dbc-8560-8eec4624888f"/>
+    <recordKeyType typeId="8bc45bd9-894a-44b4-8205-24e30a3e6337" valueTypeId="624e7a53-3a3b-46e9-a283-3339c5425860"/>
+    <recordType typeId="f700378a-af4a-418b-ac7d-7857da09f81f" valueTypeId="92de9a61-eb43-48a7-a680-e0cfe6a67145"/>
+    <recordManagerType typeId="76e53c4e-9259-4ed5-9e90-847ed2a279b5" valueTypeId="96c76a42-715a-4d4f-ac94-bfbe75805c15"/>
+  </producedTypes>
+  <name>КурсыВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Название валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="08010f4a-5889-4d1d-aecf-f47754b231d4">
+    <name>КурсВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс валюты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8774bdf7-ac81-43fd-b699-17cfbe85be0f">
+    <name>НазваниеВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название валюты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dee37b20-bd97-405d-82a0-745f7dccf70b">
+    <name>Номинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинал</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1e89fdbb-9ed3-4a35-99b0-2a9d0e459b16">
+    <name>ЦифровойКодВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цифровой код валюты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a23e7af7-dd3c-4f2e-b62a-d684cd13e9b3">
+    <name>СимвольныйКодВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Символьный код валюты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
